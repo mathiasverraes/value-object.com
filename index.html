@@ -6,41 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Value Object Comm.V is the trading name of Mathias Verraes">
     <meta name="author" content="Mathias Verraes">
-    <link rel="icon" href="@todoo">
+    <link rel="icon" href="@todo">
 
     <title>Value Object Comm.V</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <style>
 
         /* Links */
-        a,
-        a:focus,
-        a:hover {
+        a, a:focus, a:hover {
             color: #fff;
+            text-decoration: underline;
         }
-
-        /* Custom default button */
-        .btn-default,
-        .btn-default:hover,
-        .btn-default:focus {
-            color: #333;
-            text-shadow: none; /* Prevent inheritence from `body` */
-            background-color: #fff;
-            border: 1px solid #fff;
+        a:active, a:focus, a:hover  {
+            color: antiquewhite;
         }
-
-        /*
-         * Base structure
-         */
 
         html,
         body {
             height: 100%;
-            background-color: #333;
-            background-image: url("background.jpg");
+            background: #333 url("background.jpg");
+            font-family: 'Montserrat', sans-serif;
         }
 
         body {
@@ -74,59 +62,6 @@
             padding: 30px;
         }
 
-        /*
-         * Header
-         */
-        .masthead-brand {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .masthead-nav > li {
-            display: inline-block;
-        }
-
-        .masthead-nav > li + li {
-            margin-left: 20px;
-        }
-
-        .masthead-nav > li > a {
-            padding-right: 0;
-            padding-left: 0;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fff; /* IE8 proofing */
-            color: rgba(255, 255, 255, .75);
-            border-bottom: 2px solid transparent;
-        }
-
-        .masthead-nav > li > a:hover,
-        .masthead-nav > li > a:focus {
-            background-color: transparent;
-            border-bottom-color: #a9a9a9;
-            border-bottom-color: rgba(255, 255, 255, .25);
-        }
-
-        .masthead-nav > .active > a,
-        .masthead-nav > .active > a:hover,
-        .masthead-nav > .active > a:focus {
-            color: #fff;
-            border-bottom-color: #fff;
-        }
-
-        @media (min-width: 768px) {
-            .masthead-brand {
-                float: left;
-            }
-
-            .masthead-nav {
-                float: right;
-            }
-        }
-
-        /*
-         * Cover
-         */
 
         .cover {
             padding: 0 20px;
@@ -203,7 +138,7 @@
                 <h1 class="cover-heading">Value Object Comm.V</h1>
 
                 <p class="lead">
-                    Value Object Comm.V is the trading name of <a href="http://verraes.net"><strong>Mathias Verraes</strong></a>. Services range from developing
+                    Value Object Comm.V is the trading name of <a href="http://verraes.net">Mathias Verraes</a>. Services range from developing
                     enterprise software, leading and coaching development teams, to consulting organizations and teaching workshops. Specialties include Domain-Driven Design, modelling, CQRS & event sourcing, testing, refactoring, architecture, as well Kanban and Agile methodologies.
                 </p>
 <!--
@@ -219,11 +154,16 @@
                     <li>...</li>
                 </ul>-->
                 <p class="lead">
-                    <a href="mailto:mathias@verraes.net" class="btn btn-lg btn-default">mathias@verraes.net</a>
+                    <a href="mailto:mathias@verraes.net" >mathias@verraes.net</a>
                 </p>
             </div>
 
 
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>VAT BE 0511.941.353</p>
+                </div>
+            </div>
 
         </div>
 
