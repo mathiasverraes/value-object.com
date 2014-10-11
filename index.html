@@ -6,115 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Value Object Comm.V is the trading name of Mathias Verraes">
     <meta name="author" content="Mathias Verraes">
-    <link rel="icon" href="favicon.ico">
-
     <title>Value Object Comm.V</title>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
     <style>
-
-        /* Links */
-        a, a:focus, a:hover {
-            color: #fff;
-            text-decoration: underline;
-        }
-        a:active, a:focus, a:hover  {
-            color: antiquewhite;
-        }
-
-        html,
-        body {
-            height: 100%;
-            background: #333 url("background.jpg");
-            font-family: 'Raleway', sans-serif;        }
-
-        body {
-            color: #fff;
-            text-align: center;
-            text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
-        }
-
-        .lead {
-            font-size: 18px;
-            box-shadow:none;
-        }
-
-        /* Extra markup and styles for table-esque vertical and horizontal centering */
-        .site-wrapper {
-            display: table;
-            width: 100%;
-            height: 100%; /* For at least Firefox */
-            min-height: 100%;
-            -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-            box-shadow: inset 0 0 100px rgba(0, 0, 0, .2);
-        }
-
-        .site-wrapper-inner {
-            display: table-cell;
-            vertical-align: top;
-        }
-
-        .cover-container {
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        /* Padding for spacing */
-        .inner {
-            padding: 30px;
-        }
-
-
-        .cover {
-            padding: 0 20px;
-        }
-
-        .cover .btn-lg {
-            padding: 10px 20px;
-            font-weight: bold;
-        }
-
-        /*
-         * Footer
-         */
-
-        .mastfoot {
-            color: #999; /* IE8 proofing */
-            color: rgba(255, 255, 255, .5);
-        }
-
-        /*
-         * Affix and center
-         */
-
+        a, a:focus, a:hover { color: #fff; text-decoration: underline; }
+        a:active, a:focus, a:hover  { color: antiquewhite; }
+        html, body { height: 100%; background: #333 url("background.jpg"); font-family: 'Raleway', sans-serif;        }
+        body { color: #fff; text-align: center; text-shadow: 0 1px 3px rgba(0, 0, 0, .2); }
+        .lead { font-size: 18px; box-shadow:none; }
+        .site-wrapper { display: table; width: 100%; height: 100%; /* For at least Firefox */ min-height: 100%; -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5); box-shadow: inset 0 0 100px rgba(0, 0, 0, .2); }
+        .site-wrapper-inner { display: table-cell; vertical-align: top; }
+        .cover-container { margin-right: auto; margin-left: auto; }
+        .inner { padding: 30px; }
+        .cover { padding: 0 20px; }
+        .cover .btn-lg { padding: 10px 20px; font-weight: bold; }
+        .mastfoot { color: #999; /* IE8 proofing */ color: rgba(255, 255, 255, .5); }
         @media (min-width: 768px) {
-            /* Pull out the header and footer */
-
-            .mastfoot {
-                position: fixed;
-                bottom: 0;
-            }
-
-            /* Start the vertical centering */
-            .site-wrapper-inner {
-                vertical-align: middle;
-            }
-
-            /* Handle the widths */
-            .mastfoot,
-            .cover-container {
-                width: 100%; /* Must be percentage or pixels for horizontal alignment */
-            }
+            .mastfoot { position: fixed; bottom: 0; }
+            .site-wrapper-inner { vertical-align: middle; }
+            .mastfoot, .cover-container { width: 100%; }
         }
-
         @media (min-width: 992px) {
-            .mastfoot,
-            .cover-container {
-                width: 700px;
-            }
+            .mastfoot, .cover-container { width: 700px; }
         }
     </style>
+
+
+    <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="favicon.ico">
+    <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
+    <link rel="apple-touch-icon-precomposed" href="favicon-152.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="favicon-144.png">
+    <meta name="msapplication-square70x70logo" content="favicon-70.png" />
+    <meta name="msapplication-square150x150logo" content="favicon-150.png" />
+    <meta name="msapplication-square310x310logo" content="favicon-310.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="favicon-57.png">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
